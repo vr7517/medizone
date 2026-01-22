@@ -1,189 +1,89 @@
 @extends('layouts.app')
-{{-- @section('page_title', 'Home') --}}
+{{-- @section('page_title', 'about') --}}
 
 @section('content')
  
 <!-- Hero Section -->
-    <section id="hero" class="hero section">
+  
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+<section id="about" class="about section-padding">
+  <div class="container">
+    <div class="row align-items-center g-5">
 
-        <div class="row align-items-center">
-          <div class="col-lg-6">
-            <div class="hero-content">
-              <div class="trust-badges mb-4" data-aos="fade-right" data-aos-delay="200">
-                <div class="badge-item">
-                  <i class="bi bi-shield-check"></i>
-                  <span>Accredited</span>
-                </div>
-                <div class="badge-item">
-                  <i class="bi bi-clock"></i>
-                  <span>24/7 Emergency</span>
-                </div>
-                <div class="badge-item">
-                  <i class="bi bi-star-fill"></i>
-                  <span>4.9/5 Rating</span>
-                </div>
-              </div>
+      <!-- Left Image -->
+      <div class="col-lg-6">
+        <div class="about-img position-relative">
+          <img src="assets/img/about-hospital.jpg" class="img-fluid rounded-4 shadow" alt="Medizone Hospital">
+          <div class="experience-badge shadow">
+            <h3>10+</h3>
+            <p>Years of Excellence</p>
+          </div>
+        </div>
+      </div>
 
-              <h1 data-aos="fade-right" data-aos-delay="300">
-                Excellence in <span class="highlight">Healthcare</span> With Compassionate Care
-              </h1>
+      <!-- Right Content -->
+      <div class="col-lg-6">
+        <h6 class="text-primary fw-semibold">ABOUT MEDIZONE</h6>
+        <h2 class="fw-bold mb-3">
+          Trusted Multispeciality Healthcare Center
+        </h2>
 
-              <p class="hero-description" data-aos="fade-right" data-aos-delay="400">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+        <p class="text-muted mb-4">
+          Medizone is a leading multispeciality hospital committed to delivering
+          high-quality, patient-centered healthcare with advanced medical technology
+          and experienced specialists.
+        </p>
+
+        <div class="row gy-3 mb-4">
+          <div class="col-md-6 d-flex">
+            <i class="bi bi-heart-pulse-fill text-primary fs-3 me-3"></i>
+            <div>
+              <h6 class="fw-semibold mb-1">Quality Care</h6>
+              <p class="small text-muted mb-0">
+                Compassionate and ethical treatment for every patient.
               </p>
-
-              <div class="hero-stats mb-4" data-aos="fade-right" data-aos-delay="500">
-                <div class="stat-item">
-                  <h3><span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="2"
-                      class="purecounter"></span>+</h3>
-                  <p>Years Experience</p>
-                </div>
-                <div class="stat-item">
-                  <h3><span data-purecounter-start="0" data-purecounter-end="5000" data-purecounter-duration="2"
-                      class="purecounter"></span>+</h3>
-                  <p>Patients Treated</p>
-                </div>
-                <div class="stat-item">
-                  <h3><span data-purecounter-start="0" data-purecounter-end="50" data-purecounter-duration="2"
-                      class="purecounter"></span>+</h3>
-                  <p>Medical Experts</p>
-                </div>
-              </div>
-
-              <div class="hero-actions" data-aos="fade-right" data-aos-delay="600">
-                <a href="appointment.html" class="btn btn-primary">Book Appointment</a>
-                <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="btn btn-outline glightbox">
-                  <i class="bi bi-play-circle me-2"></i>
-                  Watch Our Story
-                </a>
-              </div>
-
-              <div class="emergency-contact" data-aos="fade-right" data-aos-delay="700">
-                <div class="emergency-icon">
-                  <i class="bi bi-telephone-fill"></i>
-                </div>
-                <div class="emergency-info">
-                  <small>Emergency Hotline</small>
-                  <strong>0761 - 4070333, 9302789333</strong>
-                </div>
-              </div>
             </div>
           </div>
 
-          <div class="col-lg-6">
-            <div class="hero-visual" data-aos="fade-left" data-aos-delay="400">
-              <div class="main-image">
-                <img src="assets/img/health/staff-10.webp" alt="Modern Healthcare Facility" class="img-fluid">
-                <div class="floating-card appointment-card">
-                  <div class="card-icon">
-                    <i class="bi bi-calendar-check"></i>
-                  </div>
-                  <div class="card-content">
-                    <h6>Next Available</h6>
-                    <p>Today 2:30 PM</p>
-                    <small>Dr. Sarah Johnson</small>
-                  </div>
-                </div>
-                <div class="floating-card rating-card">
-                  <div class="card-content">
-                    <div class="rating-stars">
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                    </div>
-                    <h6>4.9/5</h6>
-                    <small>1,234 Reviews</small>
-                  </div>
-                </div>
-              </div>
-              <div class="background-elements">
-                <div class="element element-1"></div>
-                <div class="element element-2"></div>
-                <div class="element element-3"></div>
-              </div>
+          <div class="col-md-6 d-flex">
+            <i class="bi bi-hospital-fill text-primary fs-3 me-3"></i>
+            <div>
+              <h6 class="fw-semibold mb-1">Modern Infrastructure</h6>
+              <p class="small text-muted mb-0">
+                Advanced facilities with modern medical equipment.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 d-flex">
+            <i class="bi bi-people-fill text-primary fs-3 me-3"></i>
+            <div>
+              <h6 class="fw-semibold mb-1">Expert Doctors</h6>
+              <p class="small text-muted mb-0">
+                Highly qualified specialists across multiple departments.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 d-flex">
+            <i class="bi bi-ambulance text-primary fs-3 me-3"></i>
+            <div>
+              <h6 class="fw-semibold mb-1">24/7 Emergency</h6>
+              <p class="small text-muted mb-0">
+                Round-the-clock emergency & trauma care services.
+              </p>
             </div>
           </div>
         </div>
 
+        <a href="/contact" class="btn btn-primary rounded-pill px-4">
+          Book Appointment
+        </a>
       </div>
 
-    </section><!-- /Hero Section -->
-
-    <!-- Home About Section -->
-    <section id="home-about" class="home-about section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row align-items-center">
-          <div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade-right" data-aos-delay="200">
-            <div class="about-content">
-              <h2 class="section-heading">Compassionate Care, Advanced Medicine</h2>
-              <p class="lead-text">For over two decades, we've been dedicated to providing exceptional healthcare that
-                combines cutting-edge medical technology with the personal touch our patients deserve.</p>
-
-              <p>Our multidisciplinary team of specialists works collaboratively to ensure every patient receives
-                comprehensive care tailored to their unique needs. From preventive services to complex procedures, we
-                maintain the highest standards of medical excellence while fostering an environment of trust and
-                healing.</p>
-
-              <div class="stats-grid">
-                <div class="stat-item">
-                  <div class="stat-number purecounter" data-purecounter-start="0" data-purecounter-end="15000"
-                    data-purecounter-duration="1"></div>
-                  <div class="stat-label">Patients Served</div>
-                </div>
-                <div class="stat-item">
-                  <div class="stat-number purecounter" data-purecounter-start="0" data-purecounter-end="25"
-                    data-purecounter-duration="1"></div>
-                  <div class="stat-label">Years of Excellence</div>
-                </div>
-                <div class="stat-item">
-                  <div class="stat-number purecounter" data-purecounter-start="0" data-purecounter-end="50"
-                    data-purecounter-duration="1"></div>
-                  <div class="stat-label">Medical Specialists</div>
-                </div>
-              </div>
-
-              <div class="cta-section">
-                <a href="about.html" class="btn-primary">Learn More About Us</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
-            <div class="about-visual">
-              <div class="main-image">
-                <img src="assets/img/health/facilities-9.webp" alt="Modern medical facility" class="img-fluid">
-              </div>
-              <div class="floating-card">
-                <div class="card-content">
-                  <div class="icon">
-                    <i class="bi bi-heart-pulse"></i>
-                  </div>
-                  <div class="card-text">
-                    <h4>24/7 Emergency Care</h4>
-                    <p>Always here when you need us most</p>
-                  </div>
-                </div>
-              </div>
-              <div class="experience-badge">
-                <div class="badge-content">
-                  <span class="years">25+</span>
-                  <span class="text">Years of Trusted Care</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-    </section><!-- /Home About Section -->
+    </div>
+  </div>
+</section>
 
     <!-- Featured Departments Section -->
     <section id="featured-departments" class="featured-departments section">

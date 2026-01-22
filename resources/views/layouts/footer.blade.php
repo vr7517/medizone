@@ -36,11 +36,11 @@
                     <div class="contact-info mt-5">
                 <div class="contact-item">
                   <i class="bi bi-geo-alt"></i>
-                  <span>123 Creative Boulevard, Design District, NY 10012</span>
+                  <span>3036, Near SBI Chowk, behind PF Office, Vijay Nagar, Jabalpur, Madhya Pradesh - 482002</span>
                 </div>
                 <div class="contact-item">
                   <i class="bi bi-telephone"></i>
-                  <span>+1 (555) 987-6543</span>
+                  <span>0761 - 4070333, 9302789333</span>
                 </div>
                 <div class="contact-item">
                   <i class="bi bi-envelope"></i>
