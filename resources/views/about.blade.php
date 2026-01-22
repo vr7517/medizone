@@ -2,718 +2,287 @@
 {{-- @section('page_title', 'about') --}}
 
 @section('content')
- 
-<!-- Hero Section -->
-  
+    <!-- Hero Section -->
 
-<section id="about" class="about section-padding">
-  <div class="container">
-    <div class="row align-items-center g-5">
 
-      <!-- Left Image -->
-      <div class="col-lg-6">
-        <div class="about-img position-relative">
-          <img src="assets/img/about-hospital.jpg" class="img-fluid rounded-4 shadow" alt="Medizone Hospital">
-          <div class="experience-badge shadow">
-            <h3>10+</h3>
-            <p>Years of Excellence</p>
-          </div>
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <div class="row  align-items-center gy-5">
+                <!-- Left Image -->
+                <div class="col-lg-6 order-1 order-lg-0">
+                    <div class="about-img position-relative text-center text-lg-start">
+                        <img src="assets/img/about.webp" class="img-fluid rounded-4 shadow w-100" alt="Medizone Hospital">
+
+                        <!-- Experience Badge -->
+                        <div class="experience-badge shadow-sm text-center">
+                            <h3 class="mb-0">10+</h3>
+                            <p class="mb-0 small">Years of Excellence</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Right Content -->
+                <div class="col-lg-6">
+                    <span class="text-primary fw-semibold text-uppercase small">
+                        About Medizone
+                    </span>
+                    <h2 class="fw-bold mt-2 mb-3">
+                        Trusted Multispeciality Healthcare Center
+                    </h2>
+                    <p class="text-muted mb-4">
+                        Medizone is a leading multispeciality hospital committed to delivering
+                        high-quality, patient-centered healthcare through advanced medical
+                        technology, experienced specialists, and compassionate care.
+                    </p>
+                    <!-- Feature Points -->
+                    <div class="row gy-4 mb-4">
+                        <div class="col-sm-6 d-flex align-items-start">
+                            <i class="bi bi-heart-pulse-fill text-primary fs-3 me-3"></i>
+                            <div>
+                                <h6 class="fw-semibold mb-1">Quality Care</h6>
+                                <p class="small text-muted mb-0">
+                                    Ethical, compassionate treatment for every patient.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 d-flex align-items-start">
+                            <i class="bi bi-hospital-fill text-primary fs-3 me-3"></i>
+                            <div>
+                                <h6 class="fw-semibold mb-1">Modern Infrastructure</h6>
+                                <p class="small text-muted mb-0">
+                                    Equipped with advanced medical technology.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 d-flex align-items-start">
+                            <i class="bi bi-people-fill text-primary fs-3 me-3"></i>
+                            <div>
+                                <h6 class="fw-semibold mb-1">Expert Doctors</h6>
+                                <p class="small text-muted mb-0">
+                                    Skilled specialists across all major departments.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 d-flex align-items-start">
+                            <i class="bi bi-ambulance text-primary fs-3 me-3"></i>
+                            <div>
+                                <h6 class="fw-semibold mb-1">24/7 Emergency</h6>
+                                <p class="small text-muted mb-0">
+                                    Immediate emergency & trauma care services.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- CTA -->
+                    <div class="d-flex flex-wrap gap-3">
+                        <a href="/contact" class="btn btn-primary rounded-pill px-4">
+                            Book Appointment
+                        </a>
+                        <a href="/doctors" class="btn btn-outline-primary rounded-pill px-4">
+                            Meet Our Doctors
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
+    </section>
 
-      <!-- Right Content -->
-      <div class="col-lg-6">
-        <h6 class="text-primary fw-semibold">ABOUT MEDIZONE</h6>
-        <h2 class="fw-bold mb-3">
-          Trusted Multispeciality Healthcare Center
-        </h2>
 
-        <p class="text-muted mb-4">
-          Medizone is a leading multispeciality hospital committed to delivering
-          high-quality, patient-centered healthcare with advanced medical technology
-          and experienced specialists.
-        </p>
+    <section id="specialties" class="specialties section-padding">
 
-        <div class="row gy-3 mb-4">
-          <div class="col-md-6 d-flex">
-            <i class="bi bi-heart-pulse-fill text-primary fs-3 me-3"></i>
-            <div>
-              <h6 class="fw-semibold mb-1">Quality Care</h6>
-              <p class="small text-muted mb-0">
-                Compassionate and ethical treatment for every patient.
-              </p>
-            </div>
-          </div>
-
-          <div class="col-md-6 d-flex">
-            <i class="bi bi-hospital-fill text-primary fs-3 me-3"></i>
-            <div>
-              <h6 class="fw-semibold mb-1">Modern Infrastructure</h6>
-              <p class="small text-muted mb-0">
-                Advanced facilities with modern medical equipment.
-              </p>
-            </div>
-          </div>
-
-          <div class="col-md-6 d-flex">
-            <i class="bi bi-people-fill text-primary fs-3 me-3"></i>
-            <div>
-              <h6 class="fw-semibold mb-1">Expert Doctors</h6>
-              <p class="small text-muted mb-0">
-                Highly qualified specialists across multiple departments.
-              </p>
-            </div>
-          </div>
-
-          <div class="col-md-6 d-flex">
-            <i class="bi bi-ambulance text-primary fs-3 me-3"></i>
-            <div>
-              <h6 class="fw-semibold mb-1">24/7 Emergency</h6>
-              <p class="small text-muted mb-0">
-                Round-the-clock emergency & trauma care services.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <a href="/contact" class="btn btn-primary rounded-pill px-4">
-          Book Appointment
-        </a>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-    <!-- Featured Departments Section -->
-    <section id="featured-departments" class="featured-departments section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Featured Departments</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row g-5">
-
-          <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
-            <div class="specialty-card">
-              <div class="specialty-content">
-                <div class="specialty-meta">
-                  <span class="specialty-label">Specialized Care</span>
-                </div>
-                <h3>Cardiovascular Medicine</h3>
-                <p>Advanced diagnostic imaging and interventional procedures for comprehensive heart health management
-                  with personalized treatment protocols.</p>
-                <div class="specialty-features">
-                  <span><i class="bi bi-check-circle-fill"></i>24/7 Emergency Cardiac Care</span>
-                  <span><i class="bi bi-check-circle-fill"></i>Minimally Invasive Procedures</span>
-                </div>
-                <a href="department-details.html" class="specialty-link">
-                  Explore Cardiology <i class="bi bi-arrow-right"></i>
-                </a>
-              </div>
-              <div class="specialty-visual">
-                <img src="assets/img/health/cardiology-1.webp" alt="Cardiovascular Medicine" class="img-fluid">
-                <div class="visual-overlay">
-                  <i class="bi bi-heart-pulse"></i>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Specialty Card -->
-
-          <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="200">
-            <div class="specialty-card">
-              <div class="specialty-content">
-                <div class="specialty-meta">
-                  <span class="specialty-label">Expert Care</span>
-                </div>
-                <h3>Neurological Sciences</h3>
-                <p>Cutting-edge neuroimaging and neurosurgical expertise for complex brain and spinal cord conditions
-                  with innovative treatment approaches.</p>
-                <div class="specialty-features">
-                  <span><i class="bi bi-check-circle-fill"></i>Advanced Brain Imaging</span>
-                  <span><i class="bi bi-check-circle-fill"></i>Robotic Surgery</span>
-                </div>
-                <a href="department-details.html" class="specialty-link">
-                  Explore Neurology <i class="bi bi-arrow-right"></i>
-                </a>
-              </div>
-              <div class="specialty-visual">
-                <img src="assets/img/health/neurology-4.webp" alt="Neurological Sciences" class="img-fluid">
-                <div class="visual-overlay">
-                  <i class="bi bi-cpu"></i>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Specialty Card -->
-
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="department-highlight">
-              <div class="highlight-icon">
-                <i class="bi bi-shield-plus"></i>
-              </div>
-              <h4>Orthopedic Surgery</h4>
-              <p>Comprehensive musculoskeletal care utilizing advanced arthroscopic techniques and joint replacement
-                procedures.</p>
-              <ul class="highlight-list">
-                <li>Sports Medicine</li>
-                <li>Joint Replacement</li>
-                <li>Spine Surgery</li>
-              </ul>
-              <a href="department-details.html" class="highlight-cta">Learn More</a>
-            </div>
-          </div><!-- End Department Highlight -->
-
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="department-highlight">
-              <div class="highlight-icon">
-                <i class="bi bi-people"></i>
-              </div>
-              <h4>Pediatric Care</h4>
-              <p>Child-centered healthcare services from newborn to adolescence with family-focused treatment
-                approaches.</p>
-              <ul class="highlight-list">
-                <li>Neonatal Intensive Care</li>
-                <li>Developmental Pediatrics</li>
-                <li>Pediatric Surgery</li>
-              </ul>
-              <a href="department-details.html" class="highlight-cta">Learn More</a>
-            </div>
-          </div><!-- End Department Highlight -->
-
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
-            <div class="department-highlight">
-              <div class="highlight-icon">
-                <i class="bi bi-activity"></i>
-              </div>
-              <h4>Cancer Treatment</h4>
-              <p>Multidisciplinary oncology program offering personalized cancer care with latest therapeutic
-                innovations.</p>
-              <ul class="highlight-list">
-                <li>Precision Medicine</li>
-                <li>Immunotherapy</li>
-                <li>Radiation Oncology</li>
-              </ul>
-              <a href="department-details.html" class="highlight-cta">Learn More</a>
-            </div>
-          </div><!-- End Department Highlight -->
-
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+            <h2>Our Specialties & Treatments</h2>
+            <p>Explore our specialized medical departments and comprehensive treatment services.</p>
         </div>
 
-        <div class="emergency-banner" data-aos="fade-up" data-aos-delay="400">
-          <div class="row align-items-center">
-            <div class="col-lg-8">
-              <div class="emergency-content">
-                <h3>Emergency Services Available 24/7</h3>
-                <p>Our emergency department is equipped with state-of-the-art technology and staffed by board-certified
-                  emergency physicians ready to provide immediate care.</p>
-              </div>
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+            <div class="row g-5">
+
+                <!-- General Surgery -->
+                <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="specialty-card">
+                        <div class="specialty-content">
+                            <div class="specialty-meta">
+                                <span class="specialty-label ">Surgical Excellence</span>
+                            </div>
+                            <h3>General Surgery</h3>
+                            <p>
+                                Comprehensive surgical care including minimally invasive procedures and open surgeries,
+                                performed by experienced surgeons in modern operation theaters. Our team ensures fast
+                                recovery
+                                with personalized post-operative care.
+                            </p>
+                            <div class="specialty-features">
+                                <span><i class="bi bi-check-circle-fill"></i>Minimally Invasive & Laparoscopic
+                                    Surgery</span>
+                                <span><i class="bi bi-check-circle-fill"></i>Advanced Post-Operative Care</span>
+                            </div>
+                            <a href="#" class="specialty-link">
+                                Learn More <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                        <div class="specialty-visual">
+                            <img src="assets/img/specialties/general-surgery.jpg" alt="General Surgery" class="img-fluid">
+                            <div class="visual-overlay">
+                                <i class="bi bi-hospital"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Trauma Care -->
+                <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="specialty-card">
+                        <div class="specialty-content">
+                            <div class="specialty-meta">
+                                <span class="specialty-label">Critical Care</span>
+                            </div>
+                            <h3>Trauma Care</h3>
+                            <p>
+                                24/7 trauma and emergency care with rapid response teams, equipped with the latest
+                                life-support
+                                systems and ICU backup. Ensuring immediate and effective treatment for accidents and
+                                emergencies.
+                            </p>
+                            <div class="specialty-features">
+                                <span><i class="bi bi-check-circle-fill"></i>Round-the-clock Emergency Care</span>
+                                <span><i class="bi bi-check-circle-fill"></i>ICU & Critical Care Support</span>
+                            </div>
+                            <a href="#" class="specialty-link">
+                                Learn More <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                        <div class="specialty-visual">
+                            <img src="assets/img/specialties/trauma-care.jpg" alt="Trauma Care" class="img-fluid">
+                            <div class="visual-overlay">
+                                <i class="bi bi-activity"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Orthopedics -->
+                <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="specialty-card">
+                        <div class="specialty-content">
+                            <div class="specialty-meta">
+                                <span class="specialty-label">Musculoskeletal Care</span>
+                            </div>
+                            <h3>Orthopedics</h3>
+                            <p>
+                                Expert care for bone, joint, and muscle conditions including fractures, arthritis, and
+                                sports injuries.
+                                We also provide post-trauma rehabilitation and physiotherapy programs for complete recovery.
+                            </p>
+                            <div class="specialty-features">
+                                <span><i class="bi bi-check-circle-fill"></i>Joint Replacement & Arthroscopy</span>
+                                <span><i class="bi bi-check-circle-fill"></i>Sports Injury Management</span>
+                            </div>
+                            <a href="#" class="specialty-link">
+                                Learn More <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                        <div class="specialty-visual">
+                            <img src="assets/img/specialties/orthopedics.jpg" alt="Orthopedics" class="img-fluid">
+                            <div class="visual-overlay">
+                                <i class="bi bi-bandaid"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Urology -->
+                <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="specialty-card">
+                        <div class="specialty-content">
+                            <div class="specialty-meta">
+                                <span class="specialty-label">Urological Care</span>
+                            </div>
+                            <h3>Urology</h3>
+                            <p>
+                                Advanced treatments for kidney stones, urinary infections, prostate disorders, and other
+                                urological conditions.
+                                We provide minimally invasive procedures with personalized patient care.
+                            </p>
+                            <div class="specialty-features">
+                                <span><i class="bi bi-check-circle-fill"></i>Kidney & Prostate Care</span>
+                                <span><i class="bi bi-check-circle-fill"></i>Minimally Invasive Procedures</span>
+                            </div>
+                            <a href="#" class="specialty-link">
+                                Learn More <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                        <div class="specialty-visual">
+                            <img src="assets/img/specialties/urology.jpg" alt="Urology" class="img-fluid">
+                            <div class="visual-overlay">
+                                <i class="bi bi-vial"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ENT Services -->
+                <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="specialty-card">
+                        <div class="specialty-content">
+                            <div class="specialty-meta">
+                                <span class="specialty-label">ENT & Hearing</span>
+                            </div>
+                            <h3>ENT Services</h3>
+                            <p>
+                                Diagnosis and treatment of ear, nose, and throat conditions including sinus issues, hearing
+                                loss,
+                                and voice disorders. Our team ensures effective and safe ENT interventions.
+                            </p>
+                            <div class="specialty-features">
+                                <span><i class="bi bi-check-circle-fill"></i>Sinus & Hearing Treatments</span>
+                                <span><i class="bi bi-check-circle-fill"></i>Advanced ENT Procedures</span>
+                            </div>
+                            <a href="#" class="specialty-link">
+                                Learn More <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                        <div class="specialty-visual">
+                            <img src="assets/img/specialties/ent.jpg" alt="ENT Services" class="img-fluid">
+                            <div class="visual-overlay">
+                                <i class="bi bi-ear"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Physiotherapy -->
+                <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="600">
+                    <div class="specialty-card">
+                        <div class="specialty-content">
+                            <div class="specialty-meta">
+                                <span class="specialty-label">Rehabilitation Care</span>
+                            </div>
+                            <h3>Physiotherapy</h3>
+                            <p>
+                                Personalized physiotherapy and rehabilitation programs designed to improve mobility,
+                                strength,
+                                and recovery after injury or surgery. Our expert physiotherapists ensure full functional
+                                recovery.
+                            </p>
+                            <div class="specialty-features">
+                                <span><i class="bi bi-check-circle-fill"></i>Post-Surgery Rehabilitation</span>
+                                <span><i class="bi bi-check-circle-fill"></i>Mobility & Strength Programs</span>
+                            </div>
+                            <a href="#" class="specialty-link">
+                                Learn More <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                        <div class="specialty-visual">
+                            <img src="assets/img/specialties/physiotherapy.jpg" alt="Physiotherapy" class="img-fluid">
+                            <div class="visual-overlay">
+                                <i class="bi bi-person-walking"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-            <div class="col-lg-4 text-lg-end">
-              <a href="tel:+15551234567" class="emergency-btn">
-                <i class="bi bi-telephone-fill"></i>
-                Call Emergency: (555) 123-4567
-              </a>
-            </div>
-          </div>
         </div>
-
-      </div>
-
-    </section><!-- /Featured Departments Section -->
-
-    <!-- Featured Services Section -->
-    <section id="featured-services" class="featured-services section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Featured Services</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row g-0">
-
-          <div class="col-lg-8" data-aos="fade-right" data-aos-delay="200">
-            <div class="featured-service-main">
-              <div class="service-image-wrapper">
-                <img src="assets/img/health/consultation-4.webp" alt="Premier Healthcare Services" class="img-fluid"
-                  loading="lazy">
-                <div class="service-overlay">
-                  <div class="service-badge">
-                    <i class="bi bi-heart-pulse"></i>
-                    <span>Emergency Care</span>
-                  </div>
-                </div>
-              </div>
-              <div class="service-details">
-                <h2>Comprehensive Healthcare Excellence</h2>
-                <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vestibulum ante ipsum primis in faucibus
-                  orci luctus et ultrices posuere cubilia curae donec velit neque.</p>
-                <a href="#!" class="main-cta">Explore Our Services</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4" data-aos="fade-left" data-aos-delay="300">
-            <div class="services-sidebar">
-
-              <div class="service-item" data-aos="fade-up" data-aos-delay="400">
-                <div class="service-icon-wrapper">
-                  <i class="bi bi-capsule"></i>
-                </div>
-                <div class="service-info">
-                  <h4>Dermatology Clinic</h4>
-                  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                  <a href="#!" class="service-link">Learn More</a>
-                </div>
-              </div>
-
-              <div class="service-item" data-aos="fade-up" data-aos-delay="500">
-                <div class="service-icon-wrapper">
-                  <i class="bi bi-bandaid"></i>
-                </div>
-                <div class="service-info">
-                  <h4>Surgery Center</h4>
-                  <p>Donec rutrum congue leo eget malesuada curabitur arcu erat accumsan id imperdiet et porttitor at
-                    sem.</p>
-                  <a href="#!" class="service-link">Learn More</a>
-                </div>
-              </div>
-
-              <div class="service-item" data-aos="fade-up" data-aos-delay="600">
-                <div class="service-icon-wrapper">
-                  <i class="bi bi-activity"></i>
-                </div>
-                <div class="service-info">
-                  <h4>Diagnostics Lab</h4>
-                  <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui cras ultricies ligula sed
-                    magna.</p>
-                  <a href="#!" class="service-link">Learn More</a>
-                </div>
-              </div>
-
-            </div>
-          </div>
-
-        </div>
-
-        <div class="specialties-grid" data-aos="fade-up" data-aos-delay="300">
-          <div class="row align-items-center">
-
-            <div class="col-lg-3 col-md-6">
-              <div class="specialty-card">
-                <div class="specialty-image">
-                  <img src="assets/img/health/maternal-2.webp" alt="Maternal Care" class="img-fluid" loading="lazy">
-                </div>
-                <div class="specialty-content">
-                  <h5>Maternal Care</h5>
-                  <span>Expert pregnancy &amp; delivery support</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6">
-              <div class="specialty-card">
-                <div class="specialty-image">
-                  <img src="assets/img/health/vaccination-3.webp" alt="Vaccination" class="img-fluid" loading="lazy">
-                </div>
-                <div class="specialty-content">
-                  <h5>Vaccination</h5>
-                  <span>Complete immunization programs</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6">
-              <div class="specialty-card">
-                <div class="specialty-image">
-                  <img src="assets/img/health/emergency-1.webp" alt="Emergency Care" class="img-fluid" loading="lazy">
-                </div>
-                <div class="specialty-content">
-                  <h5>Emergency Care</h5>
-                  <span>24/7 critical care services</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6">
-              <div class="specialty-card">
-                <div class="specialty-image">
-                  <img src="assets/img/health/facilities-6.webp" alt="Advanced Tech" class="img-fluid" loading="lazy">
-                </div>
-                <div class="specialty-content">
-                  <h5>Advanced Technology</h5>
-                  <span>State-of-the-art medical equipment</span>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-      </div>
-
-    </section><!-- /Featured Services Section -->
-
-    <!-- Find A Doctor Section -->
-    <section id="find-a-doctor" class="find-a-doctor section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Find A Doctor</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row justify-content-center mb-5" data-aos="fade-up" data-aos-delay="200">
-          <div class="col-lg-8 text-center">
-            <div class="search-section">
-              <h3 class="search-title">Find Your Perfect Healthcare Provider</h3>
-              <p class="search-subtitle">Search through our comprehensive directory of experienced medical professionals
-              </p>
-              <form class="search-form" action="#!" method="#">
-                <div class="search-input-group">
-                  <div class="input-wrapper">
-                    <i class="bi bi-person"></i>
-                    <input type="text" class="form-control" name="doctor_name" placeholder="Enter doctor name">
-                  </div>
-                  <div class="select-wrapper">
-                    <i class="bi bi-heart-pulse"></i>
-                    <select class="form-select" name="specialty">
-                      <option value="">All Specialties</option>
-                      <option value="cardiology">Cardiology</option>
-                      <option value="neurology">Neurology</option>
-                      <option value="orthopedics">Orthopedics</option>
-                      <option value="pediatrics">Pediatrics</option>
-                      <option value="dermatology">Dermatology</option>
-                      <option value="oncology">Oncology</option>
-                    </select>
-                  </div>
-                  <button type="submit" class="search-btn">
-                    <i class="bi bi-search"></i>
-                    Find Doctors
-                  </button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-
-        <div class="doctors-grid" data-aos="fade-up" data-aos-delay="300">
-          <div class="doctor-profile" data-aos="zoom-in" data-aos-delay="100">
-            <div class="profile-header">
-              <div class="doctor-avatar">
-                <img src="assets/img/health/staff-2.webp" alt="Dr. Amanda Foster" class="img-fluid">
-                <div class="status-indicator available"></div>
-              </div>
-              <div class="doctor-details">
-                <h4>Dr. Amanda Foster</h4>
-                <span class="specialty-tag">Cardiology Specialist</span>
-                <div class="experience-info">
-                  <i class="bi bi-award"></i>
-                  <span>14 years experience</span>
-                </div>
-              </div>
-            </div>
-            <div class="rating-section">
-              <div class="stars">
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-              </div>
-              <span class="rating-score">4.9</span>
-              <span class="review-count">(127 reviews)</span>
-            </div>
-            <div class="action-buttons">
-              <a href="#!" class="btn-secondary">View Details</a>
-              <a href="#!" class="btn-primary">Book Now</a>
-            </div>
-          </div><!-- End Doctor Profile -->
-
-          <div class="doctor-profile" data-aos="zoom-in" data-aos-delay="200">
-            <div class="profile-header">
-              <div class="doctor-avatar">
-                <img src="assets/img/health/staff-6.webp" alt="Dr. Marcus Johnson" class="img-fluid">
-                <div class="status-indicator busy"></div>
-              </div>
-              <div class="doctor-details">
-                <h4>Dr. Marcus Johnson</h4>
-                <span class="specialty-tag">Neurology Expert</span>
-                <div class="experience-info">
-                  <i class="bi bi-award"></i>
-                  <span>16 years experience</span>
-                </div>
-              </div>
-            </div>
-            <div class="rating-section">
-              <div class="stars">
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-half"></i>
-              </div>
-              <span class="rating-score">4.8</span>
-              <span class="review-count">(89 reviews)</span>
-            </div>
-            <div class="action-buttons">
-              <a href="#!" class="btn-secondary">View Details</a>
-              <a href="#!" class="btn-primary">Schedule</a>
-            </div>
-          </div><!-- End Doctor Profile -->
-
-          <div class="doctor-profile" data-aos="zoom-in" data-aos-delay="300">
-            <div class="profile-header">
-              <div class="doctor-avatar">
-                <img src="assets/img/health/staff-4.webp" alt="Dr. Rachel Williams" class="img-fluid">
-                <div class="status-indicator available"></div>
-              </div>
-              <div class="doctor-details">
-                <h4>Dr. Rachel Williams</h4>
-                <span class="specialty-tag">Pediatrics Care</span>
-                <div class="experience-info">
-                  <i class="bi bi-award"></i>
-                  <span>11 years experience</span>
-                </div>
-              </div>
-            </div>
-            <div class="rating-section">
-              <div class="stars">
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-              </div>
-              <span class="rating-score">5.0</span>
-              <span class="review-count">(203 reviews)</span>
-            </div>
-            <div class="action-buttons">
-              <a href="#!" class="btn-secondary">View Details</a>
-              <a href="#!" class="btn-primary">Book Now</a>
-            </div>
-          </div><!-- End Doctor Profile -->
-
-          <div class="doctor-profile" data-aos="zoom-in" data-aos-delay="400">
-            <div class="profile-header">
-              <div class="doctor-avatar">
-                <img src="assets/img/health/staff-8.webp" alt="Dr. David Chen" class="img-fluid">
-                <div class="status-indicator offline"></div>
-              </div>
-              <div class="doctor-details">
-                <h4>Dr. David Chen</h4>
-                <span class="specialty-tag">Orthopedic Surgery</span>
-                <div class="experience-info">
-                  <i class="bi bi-award"></i>
-                  <span>22 years experience</span>
-                </div>
-              </div>
-            </div>
-            <div class="rating-section">
-              <div class="stars">
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-half"></i>
-              </div>
-              <span class="rating-score">4.7</span>
-              <span class="review-count">(156 reviews)</span>
-            </div>
-            <div class="action-buttons">
-              <a href="#!" class="btn-secondary">View Details</a>
-              <a href="#!" class="btn-primary">Schedule</a>
-            </div>
-          </div><!-- End Doctor Profile -->
-
-          <div class="doctor-profile" data-aos="zoom-in" data-aos-delay="500">
-            <div class="profile-header">
-              <div class="doctor-avatar">
-                <img src="assets/img/health/staff-11.webp" alt="Dr. Victoria Torres" class="img-fluid">
-                <div class="status-indicator available"></div>
-              </div>
-              <div class="doctor-details">
-                <h4>Dr. Victoria Torres</h4>
-                <span class="specialty-tag">Dermatology Care</span>
-                <div class="experience-info">
-                  <i class="bi bi-award"></i>
-                  <span>9 years experience</span>
-                </div>
-              </div>
-            </div>
-            <div class="rating-section">
-              <div class="stars">
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star"></i>
-              </div>
-              <span class="rating-score">4.5</span>
-              <span class="review-count">(74 reviews)</span>
-            </div>
-            <div class="action-buttons">
-              <a href="#!" class="btn-secondary">View Details</a>
-              <a href="#!" class="btn-primary">Book Now</a>
-            </div>
-          </div><!-- End Doctor Profile -->
-
-          <div class="doctor-profile" data-aos="zoom-in" data-aos-delay="600">
-            <div class="profile-header">
-              <div class="doctor-avatar">
-                <img src="assets/img/health/staff-14.webp" alt="Dr. Benjamin Lee" class="img-fluid">
-                <div class="status-indicator available"></div>
-              </div>
-              <div class="doctor-details">
-                <h4>Dr. Benjamin Lee</h4>
-                <span class="specialty-tag">Oncology Treatment</span>
-                <div class="experience-info">
-                  <i class="bi bi-award"></i>
-                  <span>19 years experience</span>
-                </div>
-              </div>
-            </div>
-            <div class="rating-section">
-              <div class="stars">
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-              </div>
-              <span class="rating-score">4.9</span>
-              <span class="review-count">(194 reviews)</span>
-            </div>
-            <div class="action-buttons">
-              <a href="#!" class="btn-secondary">View Details</a>
-              <a href="#!" class="btn-primary">Schedule</a>
-            </div>
-          </div><!-- End Doctor Profile -->
-
-        </div>
-
-        <div class="text-center mt-5" data-aos="fade-up" data-aos-delay="700">
-          <a href="doctors.html" class="btn-view-all">
-            View All Doctors
-            <i class="bi bi-arrow-right"></i>
-          </a>
-        </div>
-
-      </div>
-
-    </section><!-- /Find A Doctor Section -->
-
-    <!-- Call To Action Section -->
-    <section id="call-to-action" class="call-to-action section light-background">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="hero-content">
-          <div class="row align-items-center">
-
-            <div class="col-lg-6">
-              <div class="content-wrapper" data-aos="fade-up" data-aos-delay="200">
-                <h1>Excellence in Medical Care, Every Day</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore
-                  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-
-                <div class="cta-wrapper">
-                  <a href="appointment.html" class="primary-cta">
-                    <span>Schedule Consultation</span>
-                    <i class="bi bi-arrow-right"></i>
-                  </a>
-                  <a href="services.html" class="secondary-cta">
-                    <span>Explore Services</span>
-                    <i class="bi bi-arrow-right"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-6">
-              <div class="image-container" data-aos="fade-left" data-aos-delay="300">
-                <img src="assets/img/health/facilities-9.webp" alt="Medical Excellence" class="img-fluid">
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="features-section">
-
-          <div class="row g-0">
-
-            <div class="col-lg-4">
-              <div class="feature-block" data-aos="fade-up" data-aos-delay="200">
-                <div class="feature-icon">
-                  <i class="bi bi-shield-check"></i>
-                </div>
-                <h3>Advanced Technology</h3>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                  laborum.</p>
-              </div>
-            </div>
-
-            <div class="col-lg-4">
-              <div class="feature-block" data-aos="fade-up" data-aos-delay="300">
-                <div class="feature-icon">
-                  <i class="bi bi-clock"></i>
-                </div>
-                <h3>24/7 Availability</h3>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
-                  excepteur.</p>
-              </div>
-            </div>
-
-            <div class="col-lg-4">
-              <div class="feature-block" data-aos="fade-up" data-aos-delay="400">
-                <div class="feature-icon">
-                  <i class="bi bi-people"></i>
-                </div>
-                <h3>Expert Team</h3>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
-                  totam rem.</p>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-
-        <div class="contact-block">
-          <div class="row">
-
-            <div class="col-lg-8">
-              <div class="contact-content" data-aos="fade-up" data-aos-delay="200">
-                <h2>Need Immediate Medical Assistance?</h2>
-                <p>Our emergency response team is available around the clock to provide immediate medical support when
-                  you need it most.</p>
-              </div>
-            </div>
-
-            <div class="col-lg-4">
-              <div class="contact-actions" data-aos="fade-up" data-aos-delay="300">
-                <a href="tel:5551234567" class="emergency-call">
-                  <i class="bi bi-telephone"></i>
-                  <span>(555) 123-4567</span>
-                </a>
-                <a href="contact.html" class="contact-link">Find Location</a>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-      </div>
-
-    </section><!-- /Call To Action Section -->
-
+    </section>
 @endsection

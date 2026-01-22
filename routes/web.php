@@ -30,3 +30,6 @@ Route::get('/contact', function () {
 Route::get('/doctors', function () {
     return view('doctors');
 })->name('doctors');
+Route::get('/facilities', function () {
+    return view('facilities');
+})->name('facilities');

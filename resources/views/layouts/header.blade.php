@@ -2,7 +2,7 @@
     <div class="container d-flex justify-content-center justify-content-md-between">
         <div class="contact-info d-flex align-items-center">
             <i class="bi bi-envelope d-flex align-items-center"><a
-                    href="mailto:contact@example.com">contact@example.com</a></i>
+                    href="mailto:contact@example.com">medizonehospitaljbp@gmail.com</a></i>
             <i class="bi bi-phone d-flex align-items-center ms-4"><span>0761 - 4070333, 9302789333</span></i>
         </div>
         <div class="social-links d-none d-md-flex align-items-center">
@@ -54,6 +54,11 @@
                 <li>
                     <a href="{{ route('services') }}" class="{{ request()->routeIs('services') ? 'active' : '' }}">
                         Services
+                    </a>
+                </li>
+                 <li>
+                    <a href="{{ route('facilities') }}" class="{{ request()->routeIs('facilities') ? 'active' : '' }}">
+                        Facilities
                     </a>
                 </li>
 

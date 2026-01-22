@@ -8,8 +8,10 @@
                     <a href="index.html" class="logo d-flex align-items-center mb-4">
                         <span class="sitename">Medizone Hospital</span>
                     </a>
-                    <p class="brand-description">Crafting exceptional digital experiences through thoughtful design and
-                        innovative solutions that elevate your brand presence.</p>
+                    <p class="brand-description">
+Delivering world-class medical care through experienced doctors, advanced technology, and ethical practices.
+</p>
+
 
 
                 </div>
@@ -21,15 +23,16 @@
 
                         <div class="col-6 col-lg-6">
                             <div class="nav-column">
-                                <h6>Studio</h6>
+                                <h6>Hospital</h6>
                                 <nav class="footer-nav">
-                                    <a href="#!">Our Story</a>
-                                    <a href="#!">Design Process</a>
-                                    <a href="#!">Portfolio</a>
-                                    <a href="#!">Case Studies</a>
+                                    <a href="/about">About Medizone</a>
+                                    <a href="/doctors">Our Doctors</a>
+                                    <a href="/services">Medical Services</a>
+                                    <a href="/facilities">Facilities & Infrastructure</a>
                                 </nav>
                             </div>
                         </div>
+
 
                         <div class="col-6 col-lg-6">
                             <div class="nav-column">
@@ -45,7 +48,7 @@
                                     </div>
                                     <div class="contact-item">
                                         <i class="bi bi-envelope"></i>
-                                        <span>hello@designstudio.com</span>
+                                        <span>medizonehospitaljbp@gmail.com</span>
                                     </div>
                                 </div>
                             </div>
@@ -85,7 +88,7 @@
                             <!-- You can delete the links only if you've purchased the pro version. -->
                             <!-- Licensing information: https://bootstrapmade.com/license/ -->
                             <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-                            Designed by <a href="https://rknexotools.com/">RKnexo</a>.
+                            Designed by <a href="https://rknexotools.com/">Rohit Namdeo</a>.
                         </div>
                     </div>
                 </div>

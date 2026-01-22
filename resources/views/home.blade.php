@@ -68,7 +68,7 @@
                         <!-- Actions -->
                         <div class="hero-actions" data-aos="fade-right" data-aos-delay="600">
                             <a href="/contact" class="btn btn-primary">Book Appointment</a>
-                            <a href="#!" class="btn btn-outline glightbox">
+                            <a href="/services" class="btn btn-outline glightbox">
                                 <i class="bi bi-play-circle me-2"></i>
                                 Explore Our Services
                             </a>
