@@ -1,18 +1,40 @@
-<div class="topbar d-flex align-items-center dark-background">
-    <div class="container d-flex justify-content-center justify-content-md-between">
-        <div class="contact-info d-flex align-items-center">
-            <i class="bi bi-envelope d-flex align-items-center"><a
-                    href="mailto:contact@example.com">medizonehospitaljbp@gmail.com</a></i>
-            <i class="bi bi-phone d-flex align-items-center ms-4"><span>761-761-7080</span></i>
-        </div>
-        <div class="social-links d-none d-md-flex align-items-center">
-            <a href="#!" class="twitter"><i class="bi bi-twitter-x"></i></a>
-            <a href="#!" class="facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#!" class="instagram"><i class="bi bi-instagram"></i></a>
-            <a href="#!" class="linkedin"><i class="bi bi-linkedin"></i></a>
+<div class="topbar py-2 dark-background">
+    <div class="container">
+        <div class="row align-items-center text-center text-md-start">
+
+            <!-- Contact Info -->
+            <div class="col-12 col-md-6 mb-2 mb-md-0">
+                <div class="d-flex flex-column flex-md-row justify-content-center justify-content-md-start align-items-center gap-2">
+                    
+                    <div>
+                        <i class="bi bi-envelope me-1"></i>
+                        <a href="mailto:medizonehospitaljbp@gmail.com" class="text-white text-decoration-none">
+                            medizonehospitaljbp@gmail.com
+                        </a>
+                    </div>
+
+                    <div>
+                        <i class="bi bi-phone me-1"></i>
+                        <span class="text-black">761-761-7080</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Social Links -->
+            <div class="col-12 col-md-6">
+                <div class="d-flex justify-content-center justify-content-md-end gap-3">
+                    <a href="#!" class="text-white"><i class="bi bi-twitter-x"></i></a>
+                    <a href="#!" class="text-white"><i class="bi bi-facebook"></i></a>
+                    <a href="#!" class="text-white"><i class="bi bi-instagram"></i></a>
+                    <a href="#!" class="text-white"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+
         </div>
     </div>
-</div><!-- End Top Bar -->
+</div>
+
 
 <div class="branding d-flex align-items-cente">
 
