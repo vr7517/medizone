@@ -3,9 +3,7 @@
 
 @section('content')
     <!-- Hero Section -->
-
-
-    <section id="about" class="about section-padding">
+    <section id="about" class="about py-2">
         <div class="container">
             <div class="row  align-items-center gy-5 ">
                 <!-- Left Image -->

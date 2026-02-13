@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index - Clinic Bootstrap Template</title>
+  <title>Medizone Hospital Jabalpur</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -73,6 +73,8 @@
   <script src="{{asset('assets/vendor/glightbox/js/glightbox.min.js')}}"></script>
   <script src="{{asset('assets/vendor/purecounter/purecounter_vanilla.js')}}"></script>
   <script src="{{asset('assets/vendor/swiper/swiper-bundle.min.js')}}"></script>
+  
+
   <!-- Main JS File -->
   <script src="{{asset('assets/js/main.js')}}"></script>
 

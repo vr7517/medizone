@@ -2,9 +2,9 @@
 {{-- @section('page_title', 'contact') --}}
 
 @section('content')
-    < <!-- Start Contact Us -->
-        <section class="contact-us section">
-            <div class="container">
+     <!-- Start Contact Us -->
+        <section class="contact-us section py-2 ">
+            <div class="container ">
 
                 <div class="row align-items-center gy-5">
 
@@ -116,7 +116,7 @@
                 </div>
 
                 <div class="contact-info">
-                    <div class="row">
+                    <div class="row ">
                         <!-- single-info -->
                         <div class="col-lg-4 col-12 ">
                             <div class="single-info">

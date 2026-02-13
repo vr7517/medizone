@@ -5,10 +5,16 @@
 
             <div class="col-lg-5">
                 <div class="brand-section">
-                    <a href="index.html" class="logo d-flex align-items-center mb-4">
-                                    <h1 class="sitename"> <span class="text-primary">Medi</span>zone</h1>
+                    <a class="navbar-brand d-flex align-items-center gap-2 fw-bold" href="{{ route('home') }}">
 
-                    </a>
+            <img src="{{ asset('assets/img/logo.jpeg') }}" alt="Medizone Logo"
+                style="height: 40px; width: auto; object-fit: contain;">
+
+            <span class="fs-4">
+                <span class="text-primary">MEDI</span>ZONE
+            </span>
+
+        </a>
                     <p class="brand-description">
                         Delivering world-class medical care through experienced doctors, advanced technology, and
                         ethical practices.

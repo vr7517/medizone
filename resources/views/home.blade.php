@@ -2,17 +2,164 @@
 {{-- @section('page_title', 'Home') --}}
 
 @section('content')
+    <section id="" class=" section py-2">
+
+        <div class="container">
+
+            <div class="swiper init-swiper hero-slider">
+
+                <script type="application/json" class="swiper-config">
+        {
+          "loop": true,
+          "speed": 1000,
+          "autoplay": {
+            "delay": 4000
+          },
+          "pagination": {
+            "el": ".swiper-pagination",
+            "clickable": true
+          }
+        }
+      </script>
+
+                <div class="swiper-wrapper">
+
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide d-flex align-items-center justify-content-center text-center"
+                        style="background-image: url('{{ asset('assets/img/slide1.jpeg') }}');">
+
+                        <div class="slide-content">
+                            <small class="text-light d-block mb-2">24×7 Emergency & Critical Care</small>
+
+                            <h1 class="text-white fw-bold">
+                                Advanced Healthcare <br> With Compassion & Trust
+                            </h1>
+
+                            <p class="text-light mt-3">
+                                Medizone Multi-Speciality Hospital delivers expert medical treatment,
+                                modern infrastructure, and patient-focused care for every stage of life.
+                            </p>
+
+                            <div class="mt-4">
+                                <a href="https://wa.me/917617617080" class="btn btn-primary rounded-pill px-4 me-2">
+                                    Book Appointment
+                                </a>
+                                <a href="/about" class="btn btn-outline-light rounded-pill px-4">
+                                    Learn More
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div
+                        class="swiper-slide d-flex align-items-center justify-content-center text-center"
+                        style="background-image: url('{{ asset('assets/img/slide2.jpeg') }}');">
+
+                        <div class="slide-content">
+                            <small class="text-light d-block mb-2">Modern Technology • Expert Doctors</small>
+
+                            <h1 class="text-white fw-bold">
+                                Complete Multi-Speciality <br> Medical Services
+                            </h1>
+
+                            <p class="text-light mt-3">
+                                From diagnostics and surgery to rehabilitation and emergency care —
+                                we provide comprehensive healthcare solutions under one roof.
+                            </p>
+
+                            <div class="mt-4">
+                                <a href="/services" class="btn btn-primary rounded-pill px-4 me-2">
+                                    Explore Services
+                                </a>
+                                <a href="/contact" class="btn btn-outline-light rounded-pill px-4">
+                                    Contact Us
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Slide 3 -->
+                    <div class="swiper-slide d-flex align-items-center justify-content-center text-center"
+                        style="background-image: url('{{ asset('assets/img/slide3.jpeg') }}');">
+
+                        <div class="slide-content">
+                            <small class="text-light d-block mb-2">Modern Infrastructure & Facilities</small>
+
+                            <h1 class="text-white fw-bold">
+                                Advanced ICU, OT & Diagnostic <br> Facilities Under One Roof
+                            </h1>
+
+                            <p class="text-light mt-3">
+                                Equipped with state-of-the-art operation theatres, fully monitored ICU units,
+                                advanced diagnostic lab, pharmacy, and 24×7 ambulance services.
+                            </p>
+
+                            <div class="mt-4">
+                                <a href="/facilities" class="btn btn-primary rounded-pill px-4 me-2">
+                                    View Facilities
+                                </a>
+                                <a href="/contact" class="btn btn-outline-light rounded-pill px-4">
+                                    Get Directions
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Slide 4 -->
+                    <div class="swiper-slide d-flex align-items-center justify-content-center text-center"
+                        style="background-image: url('{{ asset('assets/img/slide4.jpeg') }}');">
+
+                        <div class="slide-content">
+                            <small class="text-light d-block mb-2">Experienced & Dedicated Doctors</small>
+
+                            <h1 class="text-white fw-bold">
+                                Expert Specialists <br> Personalized Treatment Plans
+                            </h1>
+
+                            <p class="text-light mt-3">
+                                Our team of highly qualified specialists provides personalized care,
+                                ensuring accurate diagnosis and effective treatment outcomes.
+                            </p>
+
+                            <div class="mt-4">
+                                <a href="/doctors" class="btn btn-primary rounded-pill px-4 me-2">
+                                    Meet Our Doctors
+                                </a>
+                                <a href="/appointment" class="btn btn-outline-light rounded-pill px-4">
+                                    Schedule Visit
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="swiper-pagination mt-4"></div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
     <!-- Hero Section -->
-    <section id="hero" class="hero section">
+    <section id="hero" class="hero section py-2">
 
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="container">
+            <div class="row align-items-center gy-5">
 
-            <div class="row align-items-center">
+                <!-- Left Content -->
                 <div class="col-lg-6">
-                    <div class="hero-content">
+                    <div class="hero-content pe-lg-4">
 
                         <!-- Trust Badges -->
-                        <div class="trust-badges mb-4" data-aos="fade-right" data-aos-delay="200">
+                        <div class="trust-badges d-flex flex-wrap gap-3 mb-4">
                             <div class="badge-item">
                                 <i class="bi bi-shield-check"></i>
                                 <span>Trusted Healthcare</span>
@@ -27,62 +174,52 @@
                             </div>
                         </div>
 
-                        <!-- Heading -->
-                        <h1 data-aos="fade-right" data-aos-delay="300">
-                            Advanced <span class="highlight">Multi-Speciality Healthcare</span><br>
-                            With Compassion & Care
+                        <h1 class="display-5 fw-bold mb-4">
+                            Excellence in <span class="text-primary">Healthcare</span>
                         </h1>
 
-                        <!-- Description -->
-                        <p class="hero-description" data-aos="fade-right" data-aos-delay="400">
-                            Medizone Multi-Speciality Hospital & Trauma Centre, Jabalpur, is committed to
-                            delivering high-quality medical care with modern infrastructure, expert doctors,
-                            and round-the-clock emergency services for patients of all age groups.
+
+                        <p class="lead mb-4">
+                            Medizone Multi-Speciality Hospital & Trauma Centre, Jabalpur, delivers
+                            high-quality care with expert doctors and modern infrastructure.
                         </p>
 
                         <!-- Stats -->
-                        <div class="hero-stats mb-4" data-aos="fade-right" data-aos-delay="500">
-                            <div class="stat-item">
-                                <h3>
-                                    <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="2"
-                                        class="purecounter"></span>+
-                                </h3>
-                                <p>Years of Excellence</p>
+                        <div class="row text-center text-lg-start mb-4">
+                            <div class="col-4">
+                                <h4 class="fw-bold text-primary">10+</h4>
+                                <small>Years Excellence</small>
                             </div>
-                            <div class="stat-item">
-                                <h3>
-                                    <span data-purecounter-start="0" data-purecounter-end="20000"
-                                        data-purecounter-duration="2" class="purecounter"></span>+
-                                </h3>
-                                <p>Patients Treated</p>
+                            <div class="col-4">
+                                <h4 class="fw-bold text-primary">20K+</h4>
+                                <small>Patients Treated</small>
                             </div>
-                            <div class="stat-item">
-                                <h3>
-                                    <span data-purecounter-start="0" data-purecounter-end="40" data-purecounter-duration="2"
-                                        class="purecounter"></span>+
-                                </h3>
-                                <p>Specialist Doctors</p>
+                            <div class="col-4">
+                                <h4 class="fw-bold text-primary">40+</h4>
+                                <small>Specialists</small>
                             </div>
                         </div>
 
-                        <!-- Actions -->
-                        <div class="hero-actions" data-aos="fade-right" data-aos-delay="600">
-                            <a href="https://wa.me/917617617080?text=Hello%20I%20would%20like%20to%20book%20an%20appointment"
-                                class="btn btn-primary">Book Appointment</a>
-                            <a href="/services" class="btn btn-outline glightbox">
-                                <i class="bi bi-play-circle me-2"></i>
-                                Explore Our Services
-                            </a>
-                        </div>
+                        {{-- <div class="d-flex flex-wrap gap-3 align-items-center">
+                        <a href="https://wa.me/917617617080"
+                           class="btn btn-primary px-4 py-2">
+                            Book Appointment
+                        </a>
+
+                        <a href="/services"
+                           class="btn btn-outline-primary px-4 py-2">
+                            Explore Services
+                        </a>
+                    </div> --}}
 
                         <!-- Emergency Contact -->
-                        <div class="emergency-contact" data-aos="fade-right" data-aos-delay="700">
-                            <div class="emergency-icon">
+                        <div class="mt-4 d-flex align-items-center gap-3">
+                            <div class="bg-primary text-white rounded-circle p-3">
                                 <i class="bi bi-telephone-fill"></i>
                             </div>
-                            <div class="emergency-info">
-                                <small>Emergency Helpline</small>
-                                <strong>+917617617080</strong>
+                            <div>
+                                <small class="text-muted">Emergency Helpline</small>
+                                <h6 class="mb-0">+91 7617617080</h6>
                             </div>
                         </div>
 
@@ -90,50 +227,16 @@
                 </div>
 
                 <!-- Right Image -->
-                <div class="col-lg-6">
-                    <div class="hero-visual" data-aos="fade-left" data-aos-delay="400">
-                        <div class="main-image">
-                            <img src="assets/img/hero.jpg" alt="Medizone Multi-Speciality Hospital" class="img-fluid">
-
-                            <div class="floating-card appointment-card">
-                                <div class="card-icon">
-                                    <i class="bi bi-calendar-check"></i>
-                                </div>
-                                <div class="card-content">
-                                    <h6>Quick Appointment</h6>
-                                    <p>Same Day Available</p>
-                                    <small>Expert Specialists</small>
-                                </div>
-                            </div>
-
-                            <div class="floating-card rating-card">
-                                <div class="card-content">
-                                    <div class="rating-stars">
-                                        <i class="bi bi-star-fill"></i>
-                                        <i class="bi bi-star-fill"></i>
-                                        <i class="bi bi-star-fill"></i>
-                                        <i class="bi bi-star-fill"></i>
-                                        <i class="bi bi-star-fill"></i>
-                                    </div>
-                                    <h6>Trusted Care</h6>
-                                    <small>Thousands of Happy Patients</small>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="background-elements">
-                            <div class="element element-1"></div>
-                            <div class="element element-2"></div>
-                            <div class="element element-3"></div>
-                        </div>
-                    </div>
+                <div class="col-lg-6 text-center">
+                    <img src="{{ asset('assets/img/hero.jpg') }}" class="img-fluid rounded-4 shadow"
+                        alt="Medizone Hospital">
                 </div>
 
             </div>
-
         </div>
-
     </section>
+
+
 
 
     <!-- Home About Section -->
